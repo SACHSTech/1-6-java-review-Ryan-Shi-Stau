@@ -12,9 +12,6 @@ import java.io.*;
 public class Review3 {
     public static void main(String[] args) throws IOException {
 
-        // declare reader
-        BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
-
         // print odd numbers between 20-100
         for (int i = 20; i < 100; i++) {
             if (i % 2 == 1) {

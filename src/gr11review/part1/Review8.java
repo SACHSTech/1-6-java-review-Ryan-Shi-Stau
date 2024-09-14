@@ -1,7 +1,7 @@
 package gr11review.part1;
 
 import java.io.*;
-import java.lang.Math;
+
 
 /**
  * A simple program to simulate 1000 slot pulls from 0-9 with 3 digits, and
@@ -14,12 +14,11 @@ public class Review8 {
 
     public static void main(String[] args) throws IOException {
         // declare reader
-        BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
-
+       
         // declare variables
-        int int1 = 0;
-        int int2 = 0;
-        int int3 = 0;
+        int int1;
+        int int2;
+        int int3;
         int intTriple = 0;
 
         // loop 1000 times

@@ -1,7 +1,7 @@
 package gr11review.part1;
 
 import java.io.*;
-import java.text.DecimalFormat;
+
 
 /**
  * A simple program to count the characters, amount of times the letter a
