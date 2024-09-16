@@ -16,9 +16,9 @@ public class Review5 {
         BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
 
         // declare variables
-        double dblYearly = 0;
-        double dblInterest = 0;
-        double dblTarget = 0;
+        double dblYearly;
+        double dblInterest;
+        double dblTarget;
         double dblMoney = 0;
         int intYears = 0;
 
